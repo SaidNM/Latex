@@ -18,15 +18,94 @@
 \justify
 En cada problema del 1 al 16, encuentre $u$ y $v$ de manera que $f(z) = u(x,y) + iv(x,y)$, determine todos los puntos(si los hay)en donde las ecuaciones de Cauchy-Riemann se satisfacen, y determine todos los puntos en donde la funci\'on es diferenciable. Se pueden suponer todos los resultados familiares de la continuidad de funciones reales de dos variables.
 \begin{enumerate}
-\item $f(z)= z-i$
-\item $f(z)= |z|$
+\item $f(z)= z-i$ \\
+Soluci\'on.\\
+$f(z)=x+iy-i$\\
+$f(z)=x+i(y-1)$\\
+$u=x$ \hspace{1cm} $v=y-1$\\
+Condiciones de Cauchy-Riemann.\\
+$u_x=v_y$ \hspace{1cm} $u_y=-v_x$\\
+$u_x=1=v_y$\\
+$u_y=0=-v_x$\\
+Las condiciones de Cauchy-Riemann se satisfacen $\forall z \epsilon \mathbb{C}$\\
+Al cumplirse las condiciones de C-R la funci\'on es diferenciable en todo punto.
+\item $f(z)= |z|$\\
+Soluci\'on.\\
+$f(z)=|x+iy|$\\
+$f(z)=\sqrt{x^2+y^2}$\\
+$u=\sqrt{x^2+y^2} \hspace{1cm} v=0$\\
+Condiciones de Cauchy-Riemann.\\
+$u_x=v_y$ \hspace{1cm} $u_y=-v_x$\\
+$u_x=\frac{1}{2}(x^2+y^2)^{-\frac{1}{2}}(2x)\neq 0=v_y$\\
+$u_y=\frac{1}{2}(x^2+y^2)^{-\frac{1}{2}}(2y)\neq 0=-v_x$\\
+Las condiciones de Cauchy-Riemann no se satisfacen en ning\'un punto\\
+Al no cumplirse las condiciones de C-R la funci\'on no es diferenciable en ning\'un punto.
 \item $f(z)= i|z|^2$
-\item $f(z)= \frac{z}{Re(z)}$
-\item $f(z)= \overline{z}^2$
-\item $f(z)= -4z + \frac{1}{z}$
+Soluci\'on.\\
+$f(z)=i(\sqrt{x^2+y^2})^2$\\
+$f(z)=i(x^2+y^2)$\\
+$u=0 \hspace{1cm} v=x^2+y^2$\\
+Condiciones de Cauchy-Riemann.\\
+$u_x=v_y$ \hspace{1cm} $u_y=-v_x$\\
+$u_x = 0 \neq 2y = v_y$\\
+$u_y = 0 \neq -2x =-v_x$\\
+Las condiciones de Cauchy-Riemann solo se satisfacen si x=0 , y=0 \\
+Al no cumplirse las condiciones de C-R $\forall z \epsilon \mathbb{C}$ y no ser anal\'itica, la funci\'on no es diferenciable en ning\'un punto.
+\item $f(z)= \frac{z}{Re(z)}$\\
+Soluci\'on.\\
+$f(z)=\frac{x+iy}{x}$\\
+$u=1 \hspace{1cm} v=\frac{y}{x}$\\
+Condiciones de Cauchy-Riemann.\\
+$u_x=v_y$ \hspace{1cm} $u_y=-v_x$\\
+$u_x = 0 \neq \frac{1}{x} = v_y$\\
+$u_y = 0 \neq \frac{y}{x^2} =-v_x$\\
+Las condiciones de Cauchy-Riemann no se satisfacen en ning\'un punto. \\
+Al no cumplirse las condiciones de C-R la funci\'on no es diferenciable en ning\'un punto.
+\item $f(z)= \overline{z}^2$\\
+Soluci\'on.\\
+$f(z)=(x-iy)^2$\\
+$f(z)=x^2-2ixy-y^2$\\
+$u=x^2-y^2 \hspace{1cm} v=-2xy$\\
+Condiciones de Cauchy-Riemann.\\
+$u_x=v_y$ \hspace{1cm} $u_y=-v_x$\\
+$u_x = 2x \neq -2x = v_y$\\
+$u_y = -2y \neq 2y =-v_x$\\
+Las condiciones de Cauchy-Riemann solo se satisfacen si x=0, y=0. \\
+Al no cumplirse las condiciones de C-R $\forall z \epsilon \mathbb{C}$ y no ser anal\'itica, la funci\'on no es diferenciable en ning\'un punto.
+\item $f(z)= -4z + \frac{1}{z}$\\
+Soluci\'on.\\
+$f(z)=-4(x+iy) + \frac{1}{x+iy}(\frac{x-iy}{x-iy})$\\
+$f(z)=-4x-4iy + \frac{x}{x^2+y^2}-\frac{iy}{x^2+y^2}$\\
+$u=-4x+\frac{x}{x^2+y^2} \hspace{1cm} v=-4y-\frac{y}{x^2y^2}$\\
+Condiciones de Cauchy-Riemann.\\
+$u_x=v_y$ \hspace{1cm} $u_y=-v_x$\\
+$u_x =-4+\frac{x^2+y^2-2x^2}{(x^2+y^2)^2}= -4+\frac{y^2-x^2}{(x^2+y^2)^2}= -4-\frac{x^2+y^2+2y^2}{(x^2+y^2)^2} = v_y$\\
+$u_y = \frac{-2xy}{(x^2+y^2)^2}=-v_x$\\
+Las condiciones de Cauchy-Riemann se satisfacen $\forall z \epsilon \mathbb{C}-\{0\}$\\
+Al cumplirse las condiciones de C-R $\forall z \epsilon \mathbb{C}-\{0\}$, la funci\'on es diferenciable $\forall z \epsilon \mathbb{C}-\{0\}$.
 \item $f(z)= Re(z)-Im(z)$
-\item $f(z)= Im(\frac{2z}{z+1})$
-
+Soluci\'on\\
+$f(z)= x-y$\\
+$u=x-y \hspace{1cm} v=0$\\
+Condiciones de Cauchy-Riemann.\\
+$u_x=v_y$ \hspace{1cm} $u_y=-v_x$\\
+$u_x = 1 \neq 0 = v_y$\\
+$u_y = -1\neq 0 =-v_x$\\
+Las condiciones de Cauchy-Riemann no se satisfacen en ning\'un punto.\\
+Al no cumplirse las condiciones de C-R en ning\'un punto, la funci\'on no es diferenciable en ning\'un punto.
+\item $f(z)= Im(\frac{2z}{z+1})$ \\
+Soluci\'on\\ \\
+$\frac{2z}{z+1} = \frac{2(x+iy)}{x+iy+1} = \frac{2x+2iy}{(x+1)+iy} (\frac{(x+1)-iy}{(x+1)-iy})= \frac{(2x+2iy)((x+1)-iy)}{(x+1)^2+y^2} = \frac{2x(x+1)-2ixy+2iy(x+1)+2y^2}{(x+1)^2+y^2}$\\
+$f(z)= Im(\frac{2x(x+1)-2ixy+2iy(x+1)+2y^2}{(x+1)^2+y^2})$\\
+$f(z)= \frac{-2xy+2xy+2y}{(x+1)^2+y^2}$\\
+$f(z)= \frac{2y}{(x+1)^2+y^2}$\\
+$u=\frac{2y}{(x+1)^2+y^2} \hspace{1cm} v=0$\\
+Condiciones de Cauchy-Riemann.\\
+$u_x=v_y$ \hspace{1cm} $u_y=-v_x$\\ \\
+$u_x=\frac{-2y(2)(x+1)}{((x+1)^2+y^2)^2} = \frac{-4xy-4y}{((x+1)^2+y^2)^2} \neq 0 = v_y$\\ \\
+$u_y = \frac{(2)((x+1)^2+y^2)-(2y)(2y)}{((x+1)^2+y^2)^2} = \frac{2x^2+4x+2+2y^2-4y^2}{((x+1)^2+y^2)^2} = \frac{2x^2+4x-2y^2+2}{((x+1)^2+y^2)^2} \neq 0 =-v_x$\\ \\
+Las condiciones de Cauchy-Riemann no se satisfacen en ning\'un punto.\\
+Al no cumplirse las condiciones de C-R la funci\'on no es diferenciable en ning\'un punto.
 \end{enumerate}
 	\subsubsection* {Secci\'on 9.2 Series de potencias}
 	\subsection* {Problemas Secci\'on 9.2}
