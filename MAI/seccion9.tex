@@ -8,6 +8,7 @@
 \usepackage{multicol}
 \usepackage{enumitem}
 \usepackage{ragged2e}
+\providecommand{\abs}[1]{\lvert#1\rvert}
 
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=4cm]{geometry}
 \author{Javier Said Naranjo Miranda}
@@ -112,13 +113,57 @@ Al no cumplirse las condiciones de C-R la funci\'on no es diferenciable en ning\
 \justify
 En cada uno de los problemas, determine el radio de convergencia y el disco abierto de convergencia de la serie de potencias.
 \begin{enumerate}
-\item $\sum\limits_{n=0}^\infty\frac{n+1}{2^n}(z+3i)^n$
-\item $\sum\limits_{n=0}^\infty\frac{n^n}{(n+1)^n}(z-1+3i)^n$
+\item $\sum\limits_{n=0}^\infty\frac{n+1}{2^n}(z+3i)^n$\\
+Soluci\'on\\
+Por el criterio del cociente.\\ \\
+$\lim_{n \to \infty}\abs{\frac{\frac{n+2}{2^{n+1}}(z+3i)^{n+1}}{\frac{n+1}{2^n}(z+3i)^n}}= \lim_{n \to \infty}\abs{\frac{2^n(n+2)}{2^{n+1}(n+1)}(z+3i)}= \lim_{n \to \infty}\abs{\frac{n+2}{2(n+1)}(z+3i)}=\frac{1}{2}\abs{z+3i}$\\ \\
+Para que la serie sea convergente.\\
+$\frac{1}{2}\abs{z+3i} < 1$\\ 
+De esta manera.
+$\abs{z+3i} < 2$\\
+Por lo tanto el disco abierto de convergencia es $\abs{z+3i} < 2$ y el R=2.
+
+\item $\sum\limits_{n=0}^\infty\frac{n^n}{(n+1)^n}(z-1+3i)^n$\\
+Soluci\'on\\
+$\frac{n^n}{(n+1)^n}(z-1+3i)^n = (\frac{n}{n+1})^n(z-1+3i)^n = ((\frac{n}{n+1})(z-1+3i))^n$\\ \\
+Por el criterio de la ra\'iz.\\ \\
+$\lim_{n \to \infty}\sqrt[n]{\abs{((\frac{n}{n+1})(z-1+3i))^n}}=\lim_{n \to \infty}\abs{\frac{n}{n+1}(z-1+3i)} = \abs{z-1+3i}$\\
+Para que la serie sea convergente.\\
+$\abs{z-1+3i}<1$
+Por lo tanto el disco abierto de convergencia es $\abs{z-1+3i} < 1$ y el R=1.
+
 \item $\sum\limits_{n=0}^\infty\frac{i^n}{2^{n+1}}(z+8i)^n$
+Soluci\'on\\
+Por el criterio del cociente.\\ \\
+$\lim_{n \to \infty}\abs{\frac{\frac{i^{n+1}}{2^{n+2}}(z+8i)^{n+1}}{\frac{i^n}{2^{n+1}}(z+8i)^n}}= \lim_{n \to \infty}\abs{\frac{i^{n+1}(2^{n+1})}{i^{n}2^{n+2}}(z+8i)}= \lim_{n \to \infty}\abs{\frac{i}{2}(z+8i)}=\frac{|i|}{|2|}\abs{z+8i}=\frac{1}{2}|z+8i|$\\ \\
+Para que la serie sea convergente.\\
+$\frac{1}{2}\abs{z+8i} < 1$\\ 
+De esta manera.
+$\abs{z+8i} < 2$\\
+Por lo tanto el disco abierto de convergencia es $\abs{z+8i} < 2$ y el R=2.
+
 \item $\sum\limits_{n=0}^\infty\frac{n^2}{2n+1}(z+6+2i)^n$
+Soluci\'on\\
+Por el criterio del cociente.\\ \\
+$\lim_{n \to \infty}\abs{\frac{\frac{(n+1)^2}{2(n+1)+1}(z+6+2i)^{n+1}}{\frac{n^2}{2n+1}(z+6+2i)^n}}= \lim_{n \to \infty}\abs{\frac{(2n+1)(n^2+2n+1)}{(n^2)(2n+3)}(z+6+2i)}= \\ \lim_{n \to \infty}\abs{\frac{2n^3+5n^2+4n+1}{2n^3+3n^2}(z+6+2i)}=\abs{z+6+2i}$\\ \\
+Para que la serie sea convergente.\\
+$\abs{z+6+2i} < 1$\\ 
+Por lo tanto el disco abierto de convergencia es $\abs{z+6+2i} < 1$ y el R=1.
+
 \item $\sum\limits_{n=0}^\infty\frac{e^{in}}{2n+1}(z+4)^n$
-\item ?`Es posible que $\sum c_{n}(z-2i)^n$ converja en 0 y diverja en $i$?
-\item Suponga $\sum\limits_{n=0}^\infty c_{n}z^n$ tiene radio de convergencia $R$ y $\sum\limits_{n=0}^\infty c_{n}^*z^n$ tiene radio de convergencia $R^*$. ?`Qu\'e se puede decir acerca del radio de convergencia de $\sum\limits_{n=0}^\infty(c_{n}+c_{n}^*)z^n$?
+Soluci\'on\\
+Por el criterio del cociente.\\ \\
+$\lim_{n \to \infty}\abs{\frac{\frac{e^{i(n+1)}}{2(n+1)+1}(z+4)^{n+1}}{\frac{e^{in}}{2n+1}(z+4)^n}}= \lim_{n \to \infty}\abs{\frac{(e^{in+i})(2n+1)}{(e^{in})(2n+3)}(z+4)}= \\ \lim_{n \to \infty}\abs{\frac{e^i(2n+1)}{2n+3}(z+4)}=\abs{z+4}$\\ \\
+Para que la serie sea convergente.\\
+$\abs{z+4} < 1$\\ 
+Por lo tanto el disco abierto de convergencia es $\abs{z+4} < 1$ y el R=1.
+
+\item ?`Es posible que $\sum c_{n}(z-2i)^n$ converja en 0 y diverja en $i$?\\
+Soluci\'on\\
+No, debido a que i esta mas cerca de 2i que 0, por lo que si converge en 0 entonces debe de converger en i.
+\item Suponga $\sum\limits_{n=0}^\infty c_{n}z^n$ tiene radio de convergencia $R$ y $\sum\limits_{n=0}^\infty c_{n}^*z^n$ tiene radio de convergencia $R^*$. ?`Qu\'e se puede decir acerca del radio de convergencia de $\sum\limits_{n=0}^\infty(c_{n}+c_{n}^*)z^n$? \\
+Soluci\'on.\\
+El radio de convergencia de $\sum\limits_{n=0}^\infty(c_{n}+c_{n}^*)z^n$ es al menos tan grande como $R$ o al menos tan grande como $R^*$.
 \item Considere $\sum\limits_{n=0}^\infty c_{n}z^n$, donde $c_{n}=2$  si $n$ es par y $c_{n}=1$ si $n$ es impar. Pruebe que el radio de convergencia de esta serie de potencias es 1, pero que este n\'umero no se puede calcular usando el criterio de la raz\'on.(Esto significa simplemente que no siempre se puede usar este criterio para determinar el radio de convergencia de una serie de potencias.)
 \end{enumerate}
 
