@@ -164,7 +164,10 @@ No, debido a que i esta mas cerca de 2i que 0, por lo que si converge en 0 enton
 \item Suponga $\sum\limits_{n=0}^\infty c_{n}z^n$ tiene radio de convergencia $R$ y $\sum\limits_{n=0}^\infty c_{n}^*z^n$ tiene radio de convergencia $R^*$. ?`Qu\'e se puede decir acerca del radio de convergencia de $\sum\limits_{n=0}^\infty(c_{n}+c_{n}^*)z^n$? \\
 Soluci\'on.\\
 El radio de convergencia de $\sum\limits_{n=0}^\infty(c_{n}+c_{n}^*)z^n$ es al menos tan grande como $R$ o al menos tan grande como $R^*$.
-\item Considere $\sum\limits_{n=0}^\infty c_{n}z^n$, donde $c_{n}=2$  si $n$ es par y $c_{n}=1$ si $n$ es impar. Pruebe que el radio de convergencia de esta serie de potencias es 1, pero que este n\'umero no se puede calcular usando el criterio de la raz\'on.(Esto significa simplemente que no siempre se puede usar este criterio para determinar el radio de convergencia de una serie de potencias.)
+\item Considere $\sum\limits_{n=0}^\infty c_{n}z^n$, donde $c_{n}=2$  si $n$ es par y $c_{n}=1$ si $n$ es impar. Pruebe que el radio de convergencia de esta serie de potencias es 1, pero que este n\'umero no se puede calcular usando el criterio de la raz\'on.(Esto significa simplemente que no siempre se puede usar este criterio para determinar el radio de convergencia de una serie de potencias.)\\
+Soluci\'on\\
+Por el Criterio de la razon tenemos que  $\lim_{n \to \infty}\frac{C_{n+1}}{C_n} = 2$ si $n$ es par y que $\lim_{n \to \infty}\frac{C_{n+1}}{C_n}=\frac{1}{2}$ si $n$ es impar, por lo tanto el limite no existe.\\
+Sin embargo por el criterio de la ra\'iz tenemos que $\lim_{n \to \infty} \sqrt[n]{|C_n|}=|C_n|^0= 1$, de manera que el radio de convergencia es 1 por el criterio de la ra\'iz n-\'esima.
 \end{enumerate}
 
 \end{document}
