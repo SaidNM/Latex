@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.9)  7 OCT 2016 21:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.9)  7 OCT 2016 21:14
 entering extended mode
-**./seccion9.tex
-(seccion9.tex
+**./capitulo9.tex
+(capitulo9.tex
 LaTeX2e <2016/03/31> patch level 1
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -564,28 +564,29 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen132
 \Gm@dimlist=\toks24
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")) (seccion9.aux
-(seccion93.aux)
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")) (capitulo9.aux
+(seccion9.aux)
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
-)
-\openout1 = `seccion9.aux'.
+ (seccion93.aux))
+\openout1 = `capitulo9.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
-LaTeX Font Info:    ... okay on input line 15.
-LaTeX Info: Redefining \. on input line 15.
-LaTeX Info: Redefining \% on input line 15.
- ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
+LaTeX Font Info:    ... okay on input line 16.
+LaTeX Info: Redefining \. on input line 16.
+LaTeX Info: Redefining \% on input line 16.
+
+("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
 \scratchdimen=\dimen133
@@ -641,7 +642,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 15.
+LaTeX Info: Redefining \selectfont on input line 16.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -677,87 +678,91 @@ LaTeX Info: Redefining \selectfont on input line 15.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for U+msa on input line 21.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+\openout2 = `seccion9.aux'.
+
+(seccion9.tex
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 21.
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
+
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]
-Underfull \hbox (badness 10000) in paragraph at lines 98--111
+Underfull \hbox (badness 10000) in paragraph at lines 83--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--111
+Underfull \hbox (badness 10000) in paragraph at lines 83--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--111
+Underfull \hbox (badness 10000) in paragraph at lines 83--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--111
+Underfull \hbox (badness 10000) in paragraph at lines 83--96
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--126
+Underfull \hbox (badness 10000) in paragraph at lines 102--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--126
+Underfull \hbox (badness 10000) in paragraph at lines 102--111
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--135
+Underfull \hbox (badness 10000) in paragraph at lines 112--120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 127--135
+Underfull \hbox (badness 10000) in paragraph at lines 112--120
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 136--145
+Underfull \hbox (badness 10000) in paragraph at lines 121--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 136--145
+Underfull \hbox (badness 10000) in paragraph at lines 121--130
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--153
+Underfull \hbox (badness 10000) in paragraph at lines 131--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 146--153
+Underfull \hbox (badness 10000) in paragraph at lines 131--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--161
+Underfull \hbox (badness 10000) in paragraph at lines 139--146
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--161
+Underfull \hbox (badness 10000) in paragraph at lines 139--146
 
  []
 
-[4] [5]
+[4]) [5]
 \openout2 = `seccion93.aux'.
 
  (seccion93.tex
@@ -772,6 +777,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--11
 
 [6
 
+
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 55--59
 
@@ -782,18 +788,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 60--61
 
  []
 
-[7]) [8] (seccion9.aux
-LaTeX Info: Redefining \. on input line 6.
-LaTeX Info: Redefining \% on input line 6.
+[7]) [8] (capitulo9.aux (seccion9.aux)
+LaTeX Info: Redefining \. on input line 7.
+LaTeX Info: Redefining \% on input line 7.
  (seccion93.aux)) ) 
 Here is how much of TeX's memory you used:
- 4437 strings out of 493335
- 58781 string characters out of 3139246
- 143431 words of memory out of 3000000
- 7880 multiletter control sequences out of 15000+200000
+ 4446 strings out of 493335
+ 58894 string characters out of 3139246
+ 143944 words of memory out of 3000000
+ 7882 multiletter control sequences out of 15000+200000
  9197 words of font info for 35 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 40i,9n,30p,449b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 40i,9n,30p,469b,384s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.p
 fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/P
@@ -805,7 +811,7 @@ ublic/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
 cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msbm
 10.pfb>
-Output written on seccion9.pdf (8 pages, 134913 bytes).
+Output written on capitulo9.pdf (8 pages, 134909 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

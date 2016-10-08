@@ -1,0 +1,86 @@
+
+\subsubsection* {Secci\'on 9.3 Las funciones exponencial y trigonom\'etricas.}
+	\subsubsection* {Problemas Secci\'on 9.3}
+\justify
+En cada problema del 1 al 10, escriba la funci\'on en la forma $a+ib$.\\
+\begin{enumerate}
+
+\item $e^i$ \\
+Soluci\'on.\\
+$e^i = \cos(1)+i\sin(1)$\\
+\item $\cos(3+2i)$\\
+Soluci\'on.\\
+$\cos(3+2i) = \cos(3)\cosh(2)-i\sin(3)\sinh(2)$
+\item $e^{5+2i}$\\
+Soluci\'on\\
+$e^{5+2i} = e^5e^{2i} = e^5(\cos(2)+i\sin(2)) = e^5\cos(2)+ie^5\sin(2)$
+
+\item ${\sin}^{2}(1+i)$\\
+Soluci\'on.\\
+$ {\sin}^{2}(1+i) = \dfrac{1 - \cos(2+2i)}{2}
+= \dfrac{1}{2}(1 - \cos(2)\cosh(2) + i\sin(2)\sinh(2)) \\
+{\sin}^{2}(1+i) = \dfrac{1}{2}(1 - \cos(2)\cosh(2)) + i\dfrac{1}{2}(\sin(2)\sinh(2)) )$
+
+\item $ {e}^{\pi \frac{i}{2}} $\\
+Soluci\'on.\\
+${e}^{\pi \frac{i}{2}} = \cos(\dfrac{\pi}{2}) + i\sin(\dfrac{\pi}{2}) = i $
+
+\item Encuentre $u(x, y) \text{ \& } v(x,y)$ tales que $ {e}^{{z}^{2}} = u(x, y) + iv(x, y)$. Pruebe que $u \text{ \& } v$ satisfacen las ecuaciones de Cauchy-Riemann para todo complejo $ z $\\
+Soluci\'on.\\
+${e}^{z^2} = {e}^{x^2+i2xy-y^2} = {e}^{x^2-y^2+i2xy} = \underbrace{e^{x^2-y^2}\cos(2xy)}_{u(x, y)} + i\underbrace{e^{x^2-y^2}\sin(2xy)}_{v(x, y)} \\
+u_{x} = -e^{x^2-y^2}\sin(2xy)2y + \cos(2xy)e^{x^2-y^2}2x \\
+v_{y} = e^{x^2-y^2}\cos(2xy)2x -e^{x^2-y^2}\sin(2xy)2y$
+
+\item Encuentre $u(x, y) \text{ \& } v(x,y)$ tales que $ \tan(z) = u(x, y) + iv(x, y)$\\
+Soluci\'on\\
+$\tan(z) = \tan(x+iy) = \frac{\sin(x+iy)}{\cos(x+iy)} \\
+\hspace*{3.7cm}=\frac{\sin(x) \cosh(y) +i\sinh(y)\cos(x)}{\cos(x) \cosh(y) -i\sin(x) \sinh(y) }\\
+\hspace*{3.7cm}=\frac{(\sin(x) \cosh(y) +i\sinh(y)\cos(x))(\cos(x) \cosh(y) +i\sin(x) \sinh(y))}{{\mathrm{cos}}^{2}(x){\mathrm{cosh}}^{2}(y)+{\mathrm{sin}}^{2}(x){\mathrm{sinh}}^{2}(y)} \\
+\hspace*{3.7cm}= \frac{\sin(x){\mathrm{cosh}}^{2}(y)\cos(x) +i{\mathrm{sin}}^{2}(x)\sinh(y)\cosh(y)+i{\mathrm{cos}}^{2}(x)\sinh(y)\cosh(y)-\sin(x)\cos(x){\mathrm{sinh}}^{2}(y)}{{\mathrm{cos}}^{2}(x){\mathrm{cosh}}^{2}(y)+{\mathrm{sin}}^{2}(x){\mathrm{sinh}}^{2}(y)} \\
+\hspace*{3.7cm}= \frac{\sin(x)\cos(x)({\mathrm{cosh}}^{2}(y) - {\mathrm{senh}}^{2}(y)) + i\sinh(y)\cosh(y)({\mathrm{sin}}^{2}(x) + {\mathrm{cos}}^{2}(x))}{{\mathrm{cos}}^{2}(x){\mathrm{cosh}}^{2}(y) + {\mathrm{sin}}^{2}(x){\mathrm{sinh}}^{2}(y)} \\
+\hspace*{3.7cm}= \frac{\sin(x)\cos(x) + i\sinh(y)\cosh(y)}{{\mathrm{cos}}^{2}(x){\mathrm{cosh}}^{2}(y) + {\mathrm{sin}}^{2}(x){\mathrm{sinh}}^{2}(y)} \\
+\hspace*{3.7cm}=\frac{\sin(x)\cos(x)}{{\mathrm{cos}}^{2}(x){\mathrm{cosh}}^{2}(y) + {\mathrm{sin}}^{2}(x){\mathrm{sinh}}^{2}(y)} + i\frac{\sinh(y)\cosh(y)}{{\mathrm{cos}}^{2}(x){\mathrm{cosh}}^{2}(y) + {\mathrm{sin}}^{2}(x){\mathrm{sinh}}^{2}(y)}\\ \\
+u(x,y)=\frac{\sin(x)\cos(x)}{{\mathrm{cos}}^{2}(x){\mathrm{cosh}}^{2}(y) + {\mathrm{sin}}^{2}(x){\mathrm{sinh}}^{2}(y)}\\
+v(x,y)=\frac{\sinh(y)\cosh(y)}{{\mathrm{cos}}^{2}(x){\mathrm{cosh}}^{2}(y) + {\mathrm{sin}}^{2}(x){\mathrm{sinh}}^{2}(y)}$
+
+\item Pruebe que ${\mathrm{sin}}^{2}(z)+{\mathrm{cos}}^{2}(z) = 1$ para todo complejo $z$\\
+Soluci\'on\\
+${\mathrm{sin}}^{2}(z)+{\mathrm{cos}}^{2}(z) = (\dfrac{e^{iz}-e^{-iz}}{2i})^2+(\dfrac{e^{iz}+e^{-iz}}{2})^2 \\
+\hspace*{3.0cm}	=\dfrac{(e^{iz}-e^{-iz})^2}{-4}+\dfrac{(e^{iz}+e^{-iz})^2}{4} \\
+\hspace*{3.0cm}	= \dfrac{-(e^{2iz}-2e^{iz}e^{-iz}+e^{-2iz})+(e^{2iz}+2e^{iz}e^{-iz}+e^{-2iz})}{4} \\
+\hspace*{3.0cm}	= \dfrac{-(e^{2iz}-2+e^{-2iz})+(e^{2iz}+2+e^{-2iz})}{4} \\
+\hspace*{3.0cm}	= \dfrac{2+2}{4} \\
+\hspace*{3.0cm}	= 1 $
+
+\item Defina las funciones seno hiperb\'olico y coseno hiperb\'lico complejas por
+$ \sinh(z) = \frac{1}{2}({e}^{z} - {e}^{-z}) \text{, } \cosh (z) = \frac{1}{2}({e}^{z} + {e}^{-z}) $
+Pruebe que ambas de estas funciones pueden escribirse en t\'erminos de las funciones trigonom\'etricas.\\
+Soluci\'on.\\
+
+Tenemos que $\sin(z) = \dfrac{e^{iz}-e^{-iz}}{2i}$ y $\cos(z) = \dfrac{e^{iz}+e^{-iz}}{2}$\\ Ahora  $z = zi$.\\
+
+$\sin(zi) = \dfrac{e^{i(zi)}-e^{-i(zi)}}{2i} \\
+\hspace*{1.1cm}	=\dfrac{e^{-z}-e^{z}}{2i} \\
+\hspace*{1.1cm}	= -i\dfrac{e^{-z}-e^{z}}{2} \\
+\hspace*{1.1cm}	= i\dfrac{e^{z}-e^{-z}}{2} \\
+\hspace*{1.1cm}	= i\sinh(z)$ \\
+	Ahora para $\cos(z)$\\
+	$\cos(zi) = \dfrac{e^{i(zi)}+e^{-i(zi)}}{2} \\
+\hspace*{1.2cm}	=\dfrac{e^{-z}+e^{z}}{2} \\
+\hspace*{1.2cm}	= \dfrac{e^{z}+e^{-z}}{2} \\
+\hspace*{1.2cm}	= \cosh(z)$ 
+
+\item Determine todos los n\'umeros complejos tales que $\sinh(z) = 0$\\
+Soluci\'on\\
+$\sinh(z) = 0 = -i\sin(zi) \\
+	\sin(zi) = 0\\
+	zi = n\pi \text{ Son los valores en los que el seno es igual a 0}\\
+	z = -in \pi \hspace{2cm} \forall n\in \mathbb{Z}$
+
+\item Encuentre todas las soluciones de ${e}^{z} = 2i$\\
+Soluci\'on\\
+$log(e^z)=z = \log(2i) = \ln(2) +i(\dfrac{\pi}{2}+2\pi n), \hspace{2cm} \forall n\in \mathbb{Z}$
+\item Encuentre todas las soluciones de ${e}^{z} = -2$\\
+Soluci\'on\\
+$log(e^z)=z = \log(-2) = \ln(2) +i(\pi+2\pi n), \hspace{2cm} \forall n\in \mathbb{Z}$
+\end{enumerate}	
