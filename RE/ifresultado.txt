@@ -1,0 +1,33 @@
+if <condition>
+then:
+	if<condition>
+	then:
+		if<condition>
+		then:
+			if<condition>
+			then:
+				<statement>
+			;else:
+				<statement>
+	;else:
+		if<condition>
+		then:
+			if<condition>
+			then:
+				<statement>
+;else:
+	if <condition>
+	then:
+		if <condition>
+		then:
+			<statement>
+	;else:
+		if<condition>
+		then:
+			if<condition>
+			then:
+				<statement>
+		;else
+			<statement>
+
+

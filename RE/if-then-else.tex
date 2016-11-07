@@ -1,0 +1,114 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{cite}
+\usepackage{float}
+\usepackage{listings}
+\usepackage{wasysym}
+\usepackage{subfig}
+\graphicspath{ {imagenes/} }
+\usepackage{amsmath, amsfonts, amssymb}
+\usepackage[left=2.5cm,right=2.5cm,top=2cm,bottom=2cm]{geometry}
+\author{Javier Said Naranjo Miranda\\ Grupo: 2CM4}
+\title{Teor\'ia Computacional\\ Gram\'aticas libres de contexto}
+\date{7 de noviembre de 2016}
+\begin{document}
+\maketitle
+\justify
+Se crear\'a una cadena con 10 sentencias if-then-else, mediante una gram\'atica libre de contexto.\\
+
+Esta tendr\'a la estructura:\\ \\
+$<statement>::=if<condition>then<statement>
+[;else <statement>] $\\
+
+Ademas se usaran las siguientes reglas:\\
+$S \rightarrow iCtSA$\\
+$A \rightarrow ;eS | \epsilon$\\
+Donde: \\
+$i=if$\\
+$t=then$\\
+$e=else$\\
+$C=condition$\\
+$S=statement$\\
+\textbf{Construcci\'on de la gram\'atica.}\\
+\begin{enumerate}
+\item $S \rightarrow iCtSA$ \\ $A \rightarrow ;eS$ \\
+$iCtS;eS$\\
+
+\item $S \rightarrow iCtSA$ \\ $A \rightarrow ;eS$ \\
+$iCtS;eS \rightarrow iCtS;eiCtS;eS$\\
+ 
+\item $S \rightarrow iCtSA$ \\ $A \rightarrow \epsilon$ \\
+$iCtS;eiCtS;eS \rightarrow iCtS;eiCtiCtS;eS$\\
+
+\item $S \rightarrow iCtSA$ \\ $A \rightarrow ;eS$ \\
+$iCtS;eiCtiCtS;eS \rightarrow iCtiCtS;eS;eiCtiCtS;eS$\\
+
+\item $S \rightarrow iCtSA$ \\ $A \rightarrow ;eS$ \\
+$iCtiCtS;eS;eiCtiCtS;eS \rightarrow iCtiCtS;eS;eiCtiCtS;eiCtS;eS$\\
+
+\item $S \rightarrow iCtSA$ \\ $A \rightarrow \epsilon$ \\
+$iCtiCtS;eS;eiCtiCtS;eiCtS;eS \rightarrow iCtiCtiCtS;eS;eiCtiCtS;eiCtS;eS$\\
+
+
+\item $S \rightarrow iCtSA$ \\ $A \rightarrow \epsilon$ \\
+$iCtiCtiCtS;eS;eiCtiCtS;eiCtS;eS \rightarrow iCtiCtiCtS;eiCtS;eiCtiCtS;eiCtS;eS$\\
+
+
+\item $S \rightarrow iCtSA$ \\ $A \rightarrow \epsilon$ \\
+$iCtiCtiCtS;eiCtS;eiCtiCtS;eiCtS;eS \rightarrow iCtiCtiCtS;eiCtS;eiCtiCtS;eiCtiCtS;eS$\\
+
+
+\item $S \rightarrow iCtSA$ \\ $A \rightarrow \epsilon$ \\
+$iCtiCtiCtS;eiCtS;eiCtiCtS;eiCtiCtS;eS \rightarrow \\ iCtiCtiCtS;eiCtiCtS;eiCtiCtS;eiCtiCtS;eS$\\
+
+
+\item $S \rightarrow iCtSA$ \\ $A \rightarrow ;eS$ \\
+$iCtiCtiCtS;eiCtiCtS;eiCtiCtS;eiCtiCtS;eS \rightarrow \\ iCtiCtiCtiCtS;eS;eiCtiCtS;eiCtiCtS;eiCtiCtS;eS$\\
+\newpage
+\textbf{Resultado}
+
+\lstset{language=Python, breaklines=true, basicstyle=\footnotesize}
+\begin{lstlisting}[frame=single]
+if <condition>
+then:
+	if<condition>
+	then:
+		if<condition>
+		then:
+			if<condition>
+			then:
+				<statement>
+			;else:
+				<statement>
+	;else:
+		if<condition>
+		then:
+			if<condition>
+			then:
+				<statement>
+;else:
+	if <condition>
+	then:
+		if <condition>
+		then:
+			<statement>
+	;else:
+		if<condition>
+		then:
+			if<condition>
+			then:
+				<statement>
+		;else
+			<statement>
+
+\end{lstlisting}
+
+
+\end{enumerate}
+\end{document}
