@@ -1,0 +1,13 @@
+\select@language {spanish}
+\contentsline {section}{\numberline {1}Automata Web-Ebay}{2}
+\contentsline {subsection}{\numberline {1.1} Descripci\'on del programa}{2}
+\contentsline {subsection}{\numberline {1.2}C\'odigo}{2}
+\contentsline {subsection}{\numberline {1.3}Pruebas}{8}
+\contentsline {section}{\numberline {2}Balanceo de Par\'entesis}{11}
+\contentsline {subsection}{\numberline {2.1} Descripci\'on del programa}{11}
+\contentsline {subsection}{\numberline {2.2}C\'odigo}{11}
+\contentsline {subsection}{\numberline {2.3}Pruebas}{15}
+\contentsline {section}{\numberline {3}Palindromos-Gram\'atica libre de contexto}{17}
+\contentsline {subsection}{\numberline {3.1} Descripci\'on del programa}{17}
+\contentsline {subsection}{\numberline {3.2}C\'odigo}{17}
+\contentsline {subsection}{\numberline {3.3}Pruebas}{21}

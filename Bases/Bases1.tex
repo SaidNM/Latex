@@ -1,0 +1,123 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{listings}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=4cm]{geometry}
+\title{Instituto Politécnico Nacional}
+\date{Práctica 9 "Permisos"}
+\author{Escuela Superior de Cómputo\\Materia: Bases de Datos\\Grupo: 2CM6\\ \\ Profesora: Erika Hernández Rubio\\Alumnos: \\Juan Daniel Castillo Reyes\\Javier Said Naranjo Miranda}
+\begin{document}
+\maketitle
+\tableofcontents
+\section{Introducción}
+\paragraph*{}
+Para conservar la integridad de los datos y de las estructuras será conveniente que sólo algunos usuarios puedan realizar determinadas tareas, y que otras, que requieren mayor conocimiento sobre las estructuras de bases de datos y tablas, sólo puedan realizarse por un número limitado y controlado de usuarios.\\
+Los conceptos de usuarios y privilegios están íntimamente relacionados.\\No se pueden crear usuarios sin asignarle al mismo tiempo privilegios. De hecho, la necesidad de crear usuarios está ligada a la necesidad de limitar las acciones que tales usuarios pueden llevar a cabo.\\
+MySQL permite definir diferentes usuarios, y además, asignar a cada uno determinados privilegios en distintos niveles o categorías de ellos.\\ \\
+
+En MySQL existen cinco niveles distintos de privilegios:
+\begin{enumerate}
+\item \textbf{Globales}: se aplican al conjunto de todas las bases de datos en un servidor. Es el nivel más alto de privilegio, en el sentido de que su ámbito es el más general.
+\item \textbf{De base de datos}: se refieren a bases de datos individuales, y por extensión, a todos los objetos que contiene cada base de datos.
+\item \textbf{De tabla}: se aplican a tablas individuales, y por lo tanto, a todas las columnas de esas tabla.
+\item \textbf{De columna}: se aplican a una columna en una tabla concreta.
+\item \textbf{De rutina}: se aplican a los procedimientos almacenados. Aún no hemos visto nada sobre este tema, pero en MySQL se pueden almacenar procedimientos consistentes en varias consultas SQL
+
+\end{enumerate}
+
+Aunque en la versión 5.0.2 de MySQL existe una sentencia para crear usuarios(CREATE USER), en versiones anteriores se usa exclusivamente la sentencia GRANT para crearlos.\\
+La sintaxis simplificada que usaremos para GRANT es :\\
+\lstset{language=SQL, breaklines=true, basicstyle=\footnotesize}
+\begin{lstlisting}[frame=single]
+GRANT priv_type [(column_list)] [, priv_type [(column_list)]] ...
+    ON 
+    TO user [IDENTIFIED BY [PASSWORD] 'password']
+        [, user [IDENTIFIED BY [PASSWORD] 'password']] ...
+
+\end{lstlisting}
+
+Se muestra una lista de los posibles privilegios que puede tener un usuario.\\
+\begin{enumerate}
+\item \textbf{ALL PRIVILEGES}: Permite a un usuario de MySQL acceder a todas las bases de datos asignadas en el sistema.
+\item \textbf{CREATE}: Permite crear nuevas tablas o bases de datos.
+\item \textbf{DROP}: permite eliminar tablas o bases de datos.
+\item \textbf{DELETE}: permite eliminar registros de tablas.
+\item \textbf{INSERT}: permite insertar registros en tablas.
+\item \textbf{SELECT}: permite leer registros en las tablas.
+\item \textbf{UPDATE}: permite actualizar registros seleccionados en tablas.
+\item \textbf{GRANT OPTION}: permite remover privilegios de usuarios.
+\end{enumerate}
+
+Para revocar los privilegios se usa la sentencia REVOKE.\\
+A continuación se muestra su sintaxis.
+\lstset{language=SQL, breaklines=true, basicstyle=\footnotesize}
+\begin{lstlisting}[frame=single]
+REVOKE priv_type [(column_list)] [, priv_type [(column_list)]] ...
+    ON 
+    FROM user [, user] ...
+
+\end{lstlisting}
+
+Para eliminar usuarios se usa la sentencia DROP USER.\\
+No se puede eliminar un usuario que tenga privilegios, es necesario revocar los privilegios antes de eliminar al usuario.
+
+
+
+\section{Querys}
+\paragraph*{Código de la práctica de permisos}
+\begin{verbatim}
+create database empressa;
+use empressa;
+
+create database samss;
+use samss;
+desc club;
+
+
+select user from mysql.user;
+create user 'ana'@'localhost' IDENTIFIED BY 'pato';
+
+#punto 1
+grant all on sams.*To ana@localhost identified by 'pato';
+#punto 2
+grant all on sams.*To pedro@localhost identified by 'cuarzo';
+#punto 3
+grant all on sams.*To mary@localhost identified by 'diamante';
+#punto 4
+grant all on *.* to felipe@localhost identified by 'topaz' with grant option;
+#punto 5
+grant update(nombre, direccion, tel) on samss.club to asistente@localhost identified by 'asistente';
+#punto 6
+#primero usar database mysql
+revoke all on *.* from felipe@localhost;
+mysql -u -root -p root
+delete from user where user='felipe' and Host='localhost';
+flush privileges
+
+#punto 7
+set password for ana@localhost = password("naranja");
+
+#punto 8
+grant select on samss.*To fulano@localhost identified by 'lagarto';
+
+#punto 9
+grant update on samss.club to sutano@localhost identified by 'lagartito';
+grant insert on samss.socio to sutano@localhost;
+#punto 10
+cd C:\Program Files\MySQL\MySQL Server 5.6\bin
+mysqladmin ping
+
+\end{verbatim}
+
+\section{Conclusión}
+\paragraph*{}
+Los permisos son un elemento fundamental dentro de las bases de datos, ya que protegen la integridad de nuestros datos, además son considerados como uno de los niveles más básicos de seguridad dentro de un sistema informático.\\
+Dentro de una origanización permite delegar responsabilidades al momento de manipular una BD sin comprometer la información resguardada, la creación de usuarios es un proceso que todo administrador de bases de datos debe realizar de manera a adecuada. Actualmente existen muchos SGBD con soporte para diferentes usuarios realizando conexiones a ellos, a tal grado que sistemas como PostgreSQL tiene todo un framework dedicado a la creación de usuarios y de permisos asignados a ellos.\\
+Diferentes tipos de usuarios con diferentes permisos apareceran casi siempre en cualquier base de datos por lo que la manipulación de estas técnicas estará presente en muchas ocasiones.
+
+
+\end{document}
