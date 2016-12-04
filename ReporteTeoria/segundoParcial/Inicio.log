@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.9)  4 DEC 2016 02:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.9)  4 DEC 2016 16:18
 entering extended mode
 **./Inicio.tex
 (Inicio.tex
@@ -632,6 +632,16 @@ LaTeX Warning: Label `fig:autotexto_alfabeto' multiply defined.
 
 LaTeX Warning: Label `fig:manualtexto_alfabeto' multiply defined.
 
+) (AutomataPila.aux
+
+LaTeX Warning: Label `fig:manualtexto_alfabeto' multiply defined.
+
+
+LaTeX Warning: Label `fig:auto_alfabeto' multiply defined.
+
+
+LaTeX Warning: Label `fig:autotexto_alfabeto' multiply defined.
+
 ))
 \openout1 = `Inicio.aux'.
 
@@ -999,32 +1009,106 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--222
 [][]
  []
 
-[23 <./ArchivoHistoriaPal.png> <./HistoriaPalA.png>]) (Inicio.aux
+[23 <./ArchivoHistoriaPal.png> <./HistoriaPalA.png>])
+\openout2 = `AutomataPila.aux'.
+
+ (AutomataPila.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--6
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+) [24
+
+
+] [25]
+LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <10> not available
+(Font)              Font shape `T1/pbk/l/it' tried instead on input line 128.
+
+[26] [27]
+LaTeX Font Info:    Try loading font information for OMS+pbk on input line 230.
+
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspbk.fd"
+File: omspbk.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pbk/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 230.
+ [28]
+[29] [30] [31] <ModoManualPila.png, id=126, 501.37312pt x 260.47313pt>
+File: ModoManualPila.png Graphic file (type png)
+
+<use ModoManualPila.png>
+Package pdftex.def Info: ModoManualPila.png used on input line 395.
+(pdftex.def)             Requested size: 472.05582pt x 199.16988pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 391--398
+
+ []
+
+<ModoManualPila2.png, id=127, 296.60812pt x 284.56313pt>
+File: ModoManualPila2.png Graphic file (type png)
+
+<use ModoManualPila2.png>
+Package pdftex.def Info: ModoManualPila2.png used on input line 401.
+(pdftex.def)             Requested size: 472.05272pt x 199.1798pt.
+ <ArchivoPila.png, id=128, 685.05937pt x 170.13562pt>
+File: ArchivoPila.png Graphic file (type png)
+
+<use ArchivoPila.png>
+Package pdftex.def Info: ArchivoPila.png used on input line 407.
+(pdftex.def)             Requested size: 472.04338pt x 199.17987pt.
+ [32 <./ModoManualPila.png> <./ModoManualPila2.png>]
+<ModoAutomaticoPila.png, id=132, 450.18187pt x 317.68687pt>
+File: ModoAutomaticoPila.png Graphic file (type png)
+
+<use ModoAutomaticoPila.png>
+Package pdftex.def Info: ModoAutomaticoPila.png used on input line 414.
+(pdftex.def)             Requested size: 472.05234pt x 199.17427pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--417
+
+ []
+
+<ArchivoHistoriaPila.png, id=133, 713.66624pt x 173.14688pt>
+File: ArchivoHistoriaPila.png Graphic file (type png)
+
+<use ArchivoHistoriaPila.png>
+Package pdftex.def Info: ArchivoHistoriaPila.png used on input line 420.
+(pdftex.def)             Requested size: 472.0339pt x 199.17548pt.
+ [33 <./ArchivoPila.png> <./ModoAutomaticoPila.png>] [34 <./ArchivoHistoriaPila
+.png>]) (Inicio.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
- (webay.aux)
-(parentesis.aux) (palindromo.aux))
+ (webay.aux) (parentesis.aux)
+(palindromo.aux) (AutomataPila.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7642 strings out of 493335
- 104641 string characters out of 3139246
- 327631 words of memory out of 3000000
- 10996 multiletter control sequences out of 15000+200000
- 25710 words of font info for 61 fonts, out of 3000000 for 9000
+ 7800 strings out of 493335
+ 106986 string characters out of 3139246
+ 346593 words of memory out of 3000000
+ 11136 multiletter control sequences out of 15000+200000
+ 27276 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,6n,42p,381b,1794s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fon
-ts/type1/urw/bookman/ubkd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bo
-okman/ubkl8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkli8a.p
-fb>
-Output written on Inicio.pdf (24 pages, 216859 bytes).
+ 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookm
+an/ubkd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkl8a.pfb><
+C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkli8a.pfb>
+Output written on Inicio.pdf (35 pages, 283116 bytes).
 PDF statistics:
- 116 PDF objects out of 1000 (max. 8388607)
+ 164 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -11,3 +11,7 @@
 \contentsline {subsection}{\numberline {3.1} Descripci\'on del programa}{17}
 \contentsline {subsection}{\numberline {3.2}C\'odigo}{17}
 \contentsline {subsection}{\numberline {3.3}Pruebas}{21}
+\contentsline {section}{\numberline {4}Aut\'omata de Pila}{24}
+\contentsline {subsection}{\numberline {4.1} Descripci\'on del programa}{24}
+\contentsline {subsection}{\numberline {4.2}C\'odigo}{24}
+\contentsline {subsection}{\numberline {4.3}Pruebas}{32}
