@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.9)  4 DEC 2016 16:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.8.9)  4 DEC 2016 20:54
 entering extended mode
 **./Inicio.tex
 (Inicio.tex
@@ -642,6 +642,22 @@ LaTeX Warning: Label `fig:auto_alfabeto' multiply defined.
 
 LaTeX Warning: Label `fig:autotexto_alfabeto' multiply defined.
 
+) (MaquinaTuring.aux
+
+LaTeX Warning: Label `fig:manual_webay' multiply defined.
+
+
+LaTeX Warning: Label `fig:manualtexto_alfabeto' multiply defined.
+
+
+LaTeX Warning: Label `fig:auto_alfabeto' multiply defined.
+
+
+LaTeX Warning: Label `fig:autotexto_alfabeto' multiply defined.
+
+
+LaTeX Warning: Label `fig:manualtexto_alfabeto' multiply defined.
+
 ))
 \openout1 = `Inicio.aux'.
 
@@ -829,62 +845,85 @@ LaTeX Font Info:    Font shape `T1/pbk/b/n' in size <10> not available
  [2
 
 ] [3]
-[4] [5] [6] [7] <ModoManualWebay.png, id=31, 447.17062pt x 243.91125pt>
+[4] [5] [6]
+LaTeX Font Info:    Try loading font information for OMS+pbk on input line 288.
+
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspbk.fd"
+File: omspbk.fd 
+)
+LaTeX Font Info:    Font shape `OMS/pbk/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 288.
+LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <10> not available
+(Font)              Font shape `T1/pbk/l/it' tried instead on input line 298.
+ [7]
+[8] [9] [10] [11] <ModoManualWebay.png, id=43, 447.17062pt x 243.91125pt>
 File: ModoManualWebay.png Graphic file (type png)
 
 <use ModoManualWebay.png>
-Package pdftex.def Info: ModoManualWebay.png used on input line 298.
+Package pdftex.def Info: ModoManualWebay.png used on input line 463.
 (pdftex.def)             Requested size: 472.04031pt x 199.17111pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--301
+Underfull \hbox (badness 10000) in paragraph at lines 459--466
 
  []
 
-<ArchivoWebay.png, id=32, 402.00188pt x 85.82062pt>
+<ArchivoWebay.png, id=44, 402.00188pt x 85.82062pt>
 File: ArchivoWebay.png Graphic file (type png)
  <use ArchivoWebay.png>
-Package pdftex.def Info: ArchivoWebay.png used on input line 304.
+Package pdftex.def Info: ArchivoWebay.png used on input line 469.
 (pdftex.def)             Requested size: 472.02716pt x 199.18642pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 304--306
+Underfull \hbox (badness 10000) in paragraph at lines 469--471
 [][]
  []
 
-<HistoriaWebay.png, id=33, 555.57562pt x 102.3825pt>
+<HistoriaWebay.png, id=45, 555.57562pt x 102.3825pt>
 File: HistoriaWebay.png Graphic file (type png)
  <use HistoriaWebay.png>
-Package pdftex.def Info: HistoriaWebay.png used on input line 310.
+Package pdftex.def Info: HistoriaWebay.png used on input line 475.
 (pdftex.def)             Requested size: 472.03804pt x 199.18265pt.
 
-[8 <./ModoManualWebay.png> <./ArchivoWebay.png>]
-<ModoAutomaticoWebay.png, id=37, 445.665pt x 246.9225pt>
+[12 <./ModoManualWebay.png> <./ArchivoWebay.png>]
+<ModoAutomaticoWebay.png, id=50, 445.665pt x 246.9225pt>
 File: ModoAutomaticoWebay.png Graphic file (type png)
 
 <use ModoAutomaticoWebay.png>
-Package pdftex.def Info: ModoAutomaticoWebay.png used on input line 317.
+Package pdftex.def Info: ModoAutomaticoWebay.png used on input line 482.
 (pdftex.def)             Requested size: 472.03543pt x 199.16591pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 315--320
+Underfull \hbox (badness 10000) in paragraph at lines 480--485
 
  []
 
-<ArchivoTextoWebay.png, id=38, 395.97937pt x 311.66437pt>
+<ArchivoTextoWebay.png, id=51, 395.97937pt x 311.66437pt>
 File: ArchivoTextoWebay.png Graphic file (type png)
 
 <use ArchivoTextoWebay.png>
-Package pdftex.def Info: ArchivoTextoWebay.png used on input line 323.
+Package pdftex.def Info: ArchivoTextoWebay.png used on input line 488.
 (pdftex.def)             Requested size: 472.037pt x 199.16966pt.
- [9 <./HistoriaWebay.png> <./ModoAutomaticoWebay.png>] <HistoriaWebayA.png, id=
-42, 742.27313pt x 298.11375pt>
+ [13 <./HistoriaWebay.png> <./ModoAutomaticoWebay.png>] <HistoriaWebayA.png, id
+=55, 742.27313pt x 298.11375pt>
 File: HistoriaWebayA.png Graphic file (type png)
 
 <use HistoriaWebayA.png>
-Package pdftex.def Info: HistoriaWebayA.png used on input line 329.
+Package pdftex.def Info: HistoriaWebayA.png used on input line 494.
 (pdftex.def)             Requested size: 472.04044pt x 199.17111pt.
- [10 <./ArchivoTextoWebay.png> <./HistoriaWebayA.png>])
+ <DiagramaWebay.png, id=56, 679.03688pt x 513.41812pt>
+File: DiagramaWebay.png Graphic file (type png)
+
+<use DiagramaWebay.png>
+Package pdftex.def Info: DiagramaWebay.png used on input line 500.
+(pdftex.def)             Requested size: 472.0277pt x 199.16681pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 500--502
+[][]
+ []
+
+[14 <./ArchivoTextoWebay.png> <./HistoriaWebayA.png>] [15 <./DiagramaWebay.png>
+])
 \openout2 = `parentesis.aux'.
 
-(parentesis.tex
+ (parentesis.tex
 Underfull \hbox (badness 10000) in paragraph at lines 4--6
 
  []
@@ -894,10 +933,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
  []
 
-[11
+[16
 
 
-] [12] [13] [14] <ModoManualPare.png, id=59, 439.6425pt x 245.41687pt>
+] [17] [18] [19] <ModoManualPare.png, id=76, 439.6425pt x 245.41687pt>
 File: ModoManualPare.png Graphic file (type png)
 
 <use ModoManualPare.png>
@@ -908,13 +947,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--165
 
  []
 
-<ArchivoPare.png, id=60, 284.56313pt x 183.68625pt>
+<ArchivoPare.png, id=77, 284.56313pt x 183.68625pt>
 File: ArchivoPare.png Graphic file (type png)
  <use ArchivoPare.png>
 Package pdftex.def Info: ArchivoPare.png used on input line 168.
 (pdftex.def)             Requested size: 472.07939pt x 199.18257pt.
 
-<ModoAutomaticoPare.png, id=61, 433.62pt x 177.66376pt>
+<ModoAutomaticoPare.png, id=78, 433.62pt x 177.66376pt>
 File: ModoAutomaticoPare.png Graphic file (type png)
 
 <use ModoAutomaticoPare.png>
@@ -925,14 +964,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--178
 
  []
 
-[15 <./ModoManualPare.png> <./ArchivoPare.png>]
-<ArchivoHistoriaPare.png, id=65, 489.32813pt x 508.90125pt>
+[20 <./ModoManualPare.png> <./ArchivoPare.png>]
+<ArchivoHistoriaPare.png, id=82, 489.32813pt x 508.90125pt>
 File: ArchivoHistoriaPare.png Graphic file (type png)
 
 <use ArchivoHistoriaPare.png>
 Package pdftex.def Info: ArchivoHistoriaPare.png used on input line 181.
 (pdftex.def)             Requested size: 472.04189pt x 199.16956pt.
- [16 <./ModoAutomaticoPare.png> <./ArchivoHistoriaPare.png>])
+ [21 <./ModoAutomaticoPare.png> <./ArchivoHistoriaPare.png>])
 \openout2 = `palindromo.aux'.
 
  (palindromo.tex
@@ -950,10 +989,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 
  []
 
-[17
+[22
 
 
-] [18] [19] [20] <ModoManualPal.png, id=83, 427.5975pt x 213.79875pt>
+] [23] [24] [25] <ModoManualPal.png, id=100, 427.5975pt x 213.79875pt>
 File: ModoManualPal.png Graphic file (type png)
 
 <use ModoManualPal.png>
@@ -969,19 +1008,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 185--192
 
  []
 
-<ArchivoPal.png, id=84, 290.58563pt x 124.96687pt>
+<ArchivoPal.png, id=101, 290.58563pt x 124.96687pt>
 File: ArchivoPal.png Graphic file (type png)
  <use ArchivoPal.png>
 Package pdftex.def Info: ArchivoPal.png used on input line 195.
 (pdftex.def)             Requested size: 472.06746pt x 199.19025pt.
 
-<HistoriaPal.png, id=85, 391.4625pt x 120.45pt>
+<HistoriaPal.png, id=102, 391.4625pt x 120.45pt>
 File: HistoriaPal.png Graphic file (type png)
  <use HistoriaPal.png>
 Package pdftex.def Info: HistoriaPal.png used on input line 201.
 (pdftex.def)             Requested size: 472.0583pt x 199.18787pt.
- [21 <./ModoManualPal.png> <./ArchivoPal.png>]
-<ModoAutomaticoPal.png, id=89, 429.10312pt x 182.18062pt>
+ [26 <./ModoManualPal.png> <./ArchivoPal.png>]
+<ModoAutomaticoPal.png, id=106, 429.10312pt x 182.18062pt>
 File: ModoAutomaticoPal.png Graphic file (type png)
 
 <use ModoAutomaticoPal.png>
@@ -992,14 +1031,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 206--211
 
  []
 
-<ArchivoHistoriaPal.png, id=90, 543.53062pt x 513.41812pt>
+<ArchivoHistoriaPal.png, id=107, 543.53062pt x 513.41812pt>
 File: ArchivoHistoriaPal.png Graphic file (type png)
 
 <use ArchivoHistoriaPal.png>
 Package pdftex.def Info: ArchivoHistoriaPal.png used on input line 214.
 (pdftex.def)             Requested size: 472.05504pt x 199.16681pt.
- [22 <./HistoriaPal.png> <./ModoAutomaticoPal.png>] <HistoriaPalA.png, id=94, 4
-18.56375pt x 308.65312pt>
+ [27 <./HistoriaPal.png> <./ModoAutomaticoPal.png>] <HistoriaPalA.png, id=111, 
+418.56375pt x 308.65312pt>
 File: HistoriaPalA.png Graphic file (type png)
  <use HistoriaPalA.png>
 Package pdftex.def Info: HistoriaPalA.png used on input line 220.
@@ -1009,7 +1048,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--222
 [][]
  []
 
-[23 <./ArchivoHistoriaPal.png> <./HistoriaPalA.png>])
+[28 <./ArchivoHistoriaPal.png> <./HistoriaPalA.png>])
 \openout2 = `AutomataPila.aux'.
 
  (AutomataPila.tex
@@ -1024,23 +1063,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
 File: lstlang1.sty 2015/06/04 1.6 listings language file
-) [24
+) [29
 
 
-] [25]
-LaTeX Font Info:    Font shape `T1/pbk/m/it' in size <10> not available
-(Font)              Font shape `T1/pbk/l/it' tried instead on input line 128.
-
-[26] [27]
-LaTeX Font Info:    Try loading font information for OMS+pbk on input line 230.
-
- ("C:\Program Files\MiKTeX 2.9\tex\latex\psnfss\omspbk.fd"
-File: omspbk.fd 
-)
-LaTeX Font Info:    Font shape `OMS/pbk/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 230.
- [28]
-[29] [30] [31] <ModoManualPila.png, id=126, 501.37312pt x 260.47313pt>
+] [30]
+[31] [32] [33] [34] [35] [36]
+<ModoManualPila.png, id=143, 501.37312pt x 260.47313pt>
 File: ModoManualPila.png Graphic file (type png)
 
 <use ModoManualPila.png>
@@ -1051,20 +1079,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 391--398
 
  []
 
-<ModoManualPila2.png, id=127, 296.60812pt x 284.56313pt>
+<ModoManualPila2.png, id=144, 296.60812pt x 284.56313pt>
 File: ModoManualPila2.png Graphic file (type png)
 
 <use ModoManualPila2.png>
 Package pdftex.def Info: ModoManualPila2.png used on input line 401.
 (pdftex.def)             Requested size: 472.05272pt x 199.1798pt.
- <ArchivoPila.png, id=128, 685.05937pt x 170.13562pt>
+ <ArchivoPila.png, id=145, 685.05937pt x 170.13562pt>
 File: ArchivoPila.png Graphic file (type png)
 
 <use ArchivoPila.png>
 Package pdftex.def Info: ArchivoPila.png used on input line 407.
 (pdftex.def)             Requested size: 472.04338pt x 199.17987pt.
- [32 <./ModoManualPila.png> <./ModoManualPila2.png>]
-<ModoAutomaticoPila.png, id=132, 450.18187pt x 317.68687pt>
+ [37 <./ModoManualPila.png> <./ModoManualPila2.png>]
+<ModoAutomaticoPila.png, id=149, 450.18187pt x 317.68687pt>
 File: ModoAutomaticoPila.png Graphic file (type png)
 
 <use ModoAutomaticoPila.png>
@@ -1075,27 +1103,101 @@ Underfull \hbox (badness 10000) in paragraph at lines 412--417
 
  []
 
-<ArchivoHistoriaPila.png, id=133, 713.66624pt x 173.14688pt>
+<ArchivoHistoriaPila.png, id=150, 713.66624pt x 173.14688pt>
 File: ArchivoHistoriaPila.png Graphic file (type png)
 
 <use ArchivoHistoriaPila.png>
 Package pdftex.def Info: ArchivoHistoriaPila.png used on input line 420.
 (pdftex.def)             Requested size: 472.0339pt x 199.17548pt.
- [33 <./ArchivoPila.png> <./ModoAutomaticoPila.png>] [34 <./ArchivoHistoriaPila
-.png>]) (Inicio.aux
+ [38 <./ArchivoPila.png> <./ModoAutomaticoPila.png>] [39 <./ArchivoHistoriaPila
+.png>])
+\openout2 = `MaquinaTuring.aux'.
+
+ (MaquinaTuring.tex
+Underfull \hbox (badness 10000) in paragraph at lines 4--7
+
+ []
+
+<MT.png, id=157, 656.4525pt x 234.8775pt>
+File: MT.png Graphic file (type png)
+ <use MT.png>
+Package pdftex.def Info: MT.png used on input line 9.
+(pdftex.def)             Requested size: 472.03442pt x 199.17015pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+[40
+
+
+ <./MT.png>] [41] [42] [43] [44]
+<ModoManualTuring.png, id=174, 427.5975pt x 222.8325pt>
+File: ModoManualTuring.png Graphic file (type png)
+
+<use ModoManualTuring.png>
+Package pdftex.def Info: ModoManualTuring.png used on input line 238.
+(pdftex.def)             Requested size: 472.02899pt x 199.17033pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 238--240
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--241
+
+ []
+
+<ArchivoTuring.png, id=175, 478.78876pt x 313.17pt>
+File: ArchivoTuring.png Graphic file (type png)
+ <use ArchivoTuring.png>
+Package pdftex.def Info: ArchivoTuring.png used on input line 244.
+(pdftex.def)             Requested size: 472.0371pt x 199.17612pt.
+
+<ModoAutomaticoTuring.png, id=176, 432.11438pt x 225.84375pt>
+File: ModoAutomaticoTuring.png Graphic file (type png)
+
+<use ModoAutomaticoTuring.png>
+Package pdftex.def Info: ModoAutomaticoTuring.png used on input line 251.
+(pdftex.def)             Requested size: 472.0503pt x 199.18076pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--254
+
+ []
+
+[45 <./ModoManualTuring.png> <./ArchivoTuring.png>]
+<ArchivoHistoriaTuring.png, id=180, 1017.8025pt x 233.37187pt>
+File: ArchivoHistoriaTuring.png Graphic file (type png)
+
+<use ArchivoHistoriaTuring.png>
+Package pdftex.def Info: ArchivoHistoriaTuring.png used on input line 257.
+(pdftex.def)             Requested size: 472.03085pt x 199.17891pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--259
+[][]
+ []
+
+<ValidasTuring.png, id=181, 475.7775pt x 134.00063pt>
+File: ValidasTuring.png Graphic file (type png)
+ <use ValidasTuring.png>
+Package pdftex.def Info: ValidasTuring.png used on input line 263.
+(pdftex.def)             Requested size: 472.05205pt x 199.16837pt.
+
+[46 <./ModoAutomaticoTuring.png> <./ArchivoHistoriaTuring.png>] [47 <./ValidasT
+uring.png>]) (Inicio.aux
 LaTeX Info: Redefining \. on input line 6.
 LaTeX Info: Redefining \% on input line 6.
- (webay.aux) (parentesis.aux)
-(palindromo.aux) (AutomataPila.aux))
+ (webay.aux) (parentesis.aux) (palindromo.aux)
+(AutomataPila.aux) (MaquinaTuring.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 7800 strings out of 493335
- 106986 string characters out of 3139246
- 346593 words of memory out of 3000000
- 11136 multiletter control sequences out of 15000+200000
+ 7920 strings out of 493335
+ 108607 string characters out of 3139246
+ 540168 words of memory out of 3000000
+ 11242 multiletter control sequences out of 15000+200000
  27276 words of font info for 63 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  44i,6n,42p,381b,1794s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1106,9 +1208,9 @@ s/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/p
 ublic/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookm
 an/ubkd8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkl8a.pfb><
 C:/Program Files/MiKTeX 2.9/fonts/type1/urw/bookman/ubkli8a.pfb>
-Output written on Inicio.pdf (35 pages, 283116 bytes).
+Output written on Inicio.pdf (48 pages, 378653 bytes).
 PDF statistics:
- 164 PDF objects out of 1000 (max. 8388607)
+ 214 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 141 words of extra memory for PDF output out of 10000 (max. 10000000)
 
